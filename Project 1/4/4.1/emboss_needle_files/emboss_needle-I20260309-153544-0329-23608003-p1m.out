@@ -1,0 +1,145 @@
+########################################
+# Program: needle
+# Rundate: Mon  9 Mar 2026 15:36:11
+# Commandline: needle
+#    -auto
+#    -stdout
+#    -asequence emboss_needle-I20260309-153544-0329-23608003-p1m.asequence
+#    -bsequence emboss_needle-I20260309-153544-0329-23608003-p1m.bsequence
+#    -datafile EBLOSUM62
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -endopen 10.0
+#    -endextend 0.5
+#    -aformat3 pair
+#    -sprotein1
+#    -sprotein2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NC_045512.2_prot_YP_009724390.1_3
+# 2: SPIKE_SARS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1277
+# Identity:     975/1277 (76.4%)
+# Similarity:  1111/1277 (87.0%)
+# Gaps:          26/1277 ( 2.0%)
+# Score: 5230.0
+# 
+#
+#=======================================
+
+NC_045512.2_p      1 MFVFLVLLPLVS-SQCVNLTTRTQL-PPAYT--NSFTRGVYYPDKVFRSS     46
+                     ||:||:.|.|.| |.....||...: .|.||  .|..|||||||::|||.
+SPIKE_SARS         1 MFIFLLFLTLTSGSDLDRCTTFDDVQAPNYTQHTSSMRGVYYPDEIFRSD     50
+
+NC_045512.2_p     47 VLHSTQDLFLPFFSNVTWFHAIHVSGTNGTKRFDNPVLPFNDGVYFASTE     96
+                     .|:.||||||||:||||.||.|     |.|  |.|||:||.||:|||:||
+SPIKE_SARS        51 TLYLTQDLFLPFYSNVTGFHTI-----NHT--FGNPVIPFKDGIYFAATE     93
+
+NC_045512.2_p     97 KSNIIRGWIFGTTLDSKTQSLLIVNNATNVVIKVCEFQFCNDPFLGVYYH    146
+                     |||::|||:||:|:::|:||::|:||:|||||:.|.|:.|::||..|   
+SPIKE_SARS        94 KSNVVRGWVFGSTMNNKSQSVIIINNSTNVVIRACNFELCDNPFFAV---    140
+
+NC_045512.2_p    147 KNNKSWMESEFRVYSSANNCTFEYVSQPFLMDLEGKQGNFKNLREFVFKN    196
+                      :.....::...::.:|.||||||:|..|.:|:..|.||||:||||||||
+SPIKE_SARS       141 -SKPMGTQTHTMIFDNAFNCTFEYISDAFSLDVSEKSGNFKHLREFVFKN    189
+
+NC_045512.2_p    197 IDGYFKIYSKHTPINLVRDLPQGFSALEPLVDLPIGINITRFQTLLALHR    246
+                     .||:..:|..:.||::|||||.||:.|:|:..||:|||||.|:.:|    
+SPIKE_SARS       190 KDGFLYVYKGYQPIDVVRDLPSGFNTLKPIFKLPLGINITNFRAIL----    235
+
+NC_045512.2_p    247 SYLTPGDSSSGWTAGAAAYYVGYLQPRTFLLKYNENGTITDAVDCALDPL    296
+                     :..:|....  |...||||:||||:|.||:|||:|||||||||||:.:||
+SPIKE_SARS       236 TAFSPAQDI--WGTSAAAYFVGYLKPTTFMLKYDENGTITDAVDCSQNPL    283
+
+NC_045512.2_p    297 SETKCTLKSFTVEKGIYQTSNFRVQPTESIVRFPNITNLCPFGEVFNATR    346
+                     :|.||::|||.::|||||||||||.|:..:|||||||||||||||||||:
+SPIKE_SARS       284 AELKCSVKSFEIDKGIYQTSNFRVVPSGDVVRFPNITNLCPFGEVFNATK    333
+
+NC_045512.2_p    347 FASVYAWNRKRISNCVADYSVLYNSASFSTFKCYGVSPTKLNDLCFTNVY    396
+                     |.|||||.||:||||||||||||||..||||||||||.||||||||:|||
+SPIKE_SARS       334 FPSVYAWERKKISNCVADYSVLYNSTFFSTFKCYGVSATKLNDLCFSNVY    383
+
+NC_045512.2_p    397 ADSFVIRGDEVRQIAPGQTGKIADYNYKLPDDFTGCVIAWNSNNLDSKVG    446
+                     |||||::||:||||||||||.||||||||||||.|||:|||:.|:|:...
+SPIKE_SARS       384 ADSFVVKGDDVRQIAPGQTGVIADYNYKLPDDFMGCVLAWNTRNIDATST    433
+
+NC_045512.2_p    447 GNYNYLYRLFRKSNLKPFERDISTEIYQAGSTPCNGVEGFNCYFPLQSYG    496
+                     |||||.||..|...|:|||||||...:.....||. ....|||:||..||
+SPIKE_SARS       434 GNYNYKYRYLRHGKLRPFERDISNVPFSPDGKPCT-PPALNCYWPLNDYG    482
+
+NC_045512.2_p    497 FQPTNGVGYQPYRVVVLSFELLHAPATVCGPKKSTNLVKNKCVNFNFNGL    546
+                     |..|.|:|||||||||||||||:|||||||||.||:|:||:|||||||||
+SPIKE_SARS       483 FYTTTGIGYQPYRVVVLSFELLNAPATVCGPKLSTDLIKNQCVNFNFNGL    532
+
+NC_045512.2_p    547 TGTGVLTESNKKFLPFQQFGRDIADTTDAVRDPQTLEILDITPCSFGGVS    596
+                     |||||||.|:|:|.||||||||::|.||:||||:|.|||||:||||||||
+SPIKE_SARS       533 TGTGVLTPSSKRFQPFQQFGRDVSDFTDSVRDPKTSEILDISPCSFGGVS    582
+
+NC_045512.2_p    597 VITPGTNTSNQVAVLYQDVNCTEVPVAIHADQLTPTWRVYSTGSNVFQTR    646
+                     |||||||.|::|||||||||||:|..|||||||||.||:||||:|||||:
+SPIKE_SARS       583 VITPGTNASSEVAVLYQDVNCTDVSTAIHADQLTPAWRIYSTGNNVFQTQ    632
+
+NC_045512.2_p    647 AGCLIGAEHVNNSYECDIPIGAGICASYQTQTNSPRRARSVASQSIIAYT    696
+                     ||||||||||:.||||||||||||||||.|.:    ..||.:.:||:|||
+SPIKE_SARS       633 AGCLIGAEHVDTSYECDIPIGAGICASYHTVS----LLRSTSQKSIVAYT    678
+
+NC_045512.2_p    697 MSLGAENSVAYSNNSIAIPTNFTISVTTEILPVSMTKTSVDCTMYICGDS    746
+                     |||||::|:|||||:|||||||:||:|||::||||.||||||.|||||||
+SPIKE_SARS       679 MSLGADSSIAYSNNTIAIPTNFSISITTEVMPVSMAKTSVDCNMYICGDS    728
+
+NC_045512.2_p    747 TECSNLLLQYGSFCTQLNRALTGIAVEQDKNTQEVFAQVKQIYKTPPIKD    796
+                     |||:|||||||||||||||||:|||.|||:||:||||||||:||||.:|.
+SPIKE_SARS       729 TECANLLLQYGSFCTQLNRALSGIAAEQDRNTREVFAQVKQMYKTPTLKY    778
+
+NC_045512.2_p    797 FGGFNFSQILPDPSKPSKRSFIEDLLFNKVTLADAGFIKQYGDCLGDIAA    846
+                     |||||||||||||.||:||||||||||||||||||||:||||:|||||.|
+SPIKE_SARS       779 FGGFNFSQILPDPLKPTKRSFIEDLLFNKVTLADAGFMKQYGECLGDINA    828
+
+NC_045512.2_p    847 RDLICAQKFNGLTVLPPLLTDEMIAQYTSALLAGTITSGWTFGAGAALQI    896
+                     |||||||||||||||||||||:|||.||:||::||.|:||||||||||||
+SPIKE_SARS       829 RDLICAQKFNGLTVLPPLLTDDMIAAYTAALVSGTATAGWTFGAGAALQI    878
+
+NC_045512.2_p    897 PFAMQMAYRFNGIGVTQNVLYENQKLIANQFNSAIGKIQDSLSSTASALG    946
+                     |||||||||||||||||||||||||.||||||.||.:||:||::|::|||
+SPIKE_SARS       879 PFAMQMAYRFNGIGVTQNVLYENQKQIANQFNKAISQIQESLTTTSTALG    928
+
+NC_045512.2_p    947 KLQDVVNQNAQALNTLVKQLSSNFGAISSVLNDILSRLDKVEAEVQIDRL    996
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+SPIKE_SARS       929 KLQDVVNQNAQALNTLVKQLSSNFGAISSVLNDILSRLDKVEAEVQIDRL    978
+
+NC_045512.2_p    997 ITGRLQSLQTYVTQQLIRAAEIRASANLAATKMSECVLGQSKRVDFCGKG   1046
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+SPIKE_SARS       979 ITGRLQSLQTYVTQQLIRAAEIRASANLAATKMSECVLGQSKRVDFCGKG   1028
+
+NC_045512.2_p   1047 YHLMSFPQSAPHGVVFLHVTYVPAQEKNFTTAPAICHDGKAHFPREGVFV   1096
+                     ||||||||:||||||||||||||:||:||||||||||:|||:||||||||
+SPIKE_SARS      1029 YHLMSFPQAAPHGVVFLHVTYVPSQERNFTTAPAICHEGKAYFPREGVFV   1078
+
+NC_045512.2_p   1097 SNGTHWFVTQRNFYEPQIITTDNTFVSGNCDVVIGIVNNTVYDPLQPELD   1146
+                     .|||.||:|||||:.|||||||||||||||||||||:|||||||||||||
+SPIKE_SARS      1079 FNGTSWFITQRNFFSPQIITTDNTFVSGNCDVVIGIINNTVYDPLQPELD   1128
+
+NC_045512.2_p   1147 SFKEELDKYFKNHTSPDVDLGDISGINASVVNIQKEIDRLNEVAKNLNES   1196
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+SPIKE_SARS      1129 SFKEELDKYFKNHTSPDVDLGDISGINASVVNIQKEIDRLNEVAKNLNES   1178
+
+NC_045512.2_p   1197 LIDLQELGKYEQYIKWPWYIWLGFIAGLIAIVMVTIMLCCMTSCCSCLKG   1246
+                     |||||||||||||||||||:||||||||||||||||:|||||||||||||
+SPIKE_SARS      1179 LIDLQELGKYEQYIKWPWYVWLGFIAGLIAIVMVTILLCCMTSCCSCLKG   1228
+
+NC_045512.2_p   1247 CCSCGSCCKFDEDDSEPVLKGVKLHYT   1273
+                     .||||||||||||||||||||||||||
+SPIKE_SARS      1229 ACSCGSCCKFDEDDSEPVLKGVKLHYT   1255
+
+
+#---------------------------------------
+#---------------------------------------
